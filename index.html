@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 02 | AWS S3 Static Website</title>
+    <meta
+      name="description"
+      content="Assignment 02 submission website for AWS S3 Static Website Hosting, Versioning, and Lifecycle Management."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+
+    <header class="hero">
+      <p class="tag">Cipher Schools | Cloud Computing</p>
+      <h1>AWS S3 Static Website Hosting with Versioning and Lifecycle Management</h1>
+      <p class="subtitle">
+        This website is created for Assignment 02 submission and demonstrates the required S3 workflow.
+      </p>
+      <a href="#overview" class="btn">View Assignment Details</a>
+    </header>
+
+    <main>
+      <section id="overview" class="card">
+        <h2>Objective</h2>
+        <p>
+          Build and deploy a static website on Amazon S3, enable versioning, and configure lifecycle rules
+          to optimize storage cost.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Work Completed</h2>
+        <ul>
+          <li>Created an S3 bucket with a globally unique bucket name.</li>
+          <li>Enabled bucket versioning and uploaded multiple versions of index.html.</li>
+          <li>Configured static website hosting for public access.</li>
+          <li>Added lifecycle rules for transition and deletion of old versions.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Submission Checklist</h2>
+        <ul>
+          <li>Public GitHub repository with complete website code.</li>
+          <li>README with name, registration number, deployed S3 URL, and screenshots.</li>
+          <li>AWS username clearly visible in all required screenshots.</li>
+          <li>S3 website remains active till 27/04/2026, 11:59 PM.</li>
+        </ul>
+      </section>
+
+      <section class="card highlight">
+        <h2>Deployed Website Link</h2>
+        <p>
+          Replace this placeholder with your S3 website endpoint in both this page and the README.
+        </p>
+        <p class="mono">Example: http://your-bucket-name.s3-website-region.amazonaws.com</p>
+      </section>
+    </main>
+
+    <footer>
+      <p><span id="year"></span> Assignment 02 Submission Page</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
