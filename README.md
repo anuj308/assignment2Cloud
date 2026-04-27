@@ -1,11 +1,11 @@
 # Assignment 02: AWS S3 Static Website Hosting with Versioning and Lifecycle Management
 
 ## Student Details
-- Name: YOUR_NAME
-- Registration Number: YOUR_REGISTRATION_NUMBER
+- Name: Anuj Kumar Sharma
+- Registration Number: 12305174
 
 ## Deployed Website Link
-- S3 Website URL: http://your-bucket-name.s3-website-region.amazonaws.com
+- S3 Website URL: https://assignment2-anuj.s3.ap-south-1.amazonaws.com/index.html
 
 ## Project Overview
 This repository contains the static website files used for Assignment 02. The project demonstrates:
@@ -22,17 +22,23 @@ This repository contains the static website files used for Assignment 02. The pr
 ## Screenshots (Compulsory)
 Add screenshots in this section and ensure your AWS username is clearly visible in each image.
 
-1. S3 Bucket with uploaded files visible
-![S3 Bucket Screenshot](screenshots/s3-bucket.png)
+1. Created bucket
+![Created Bucket](screenshots/1.png)
 
 2. Versioning view showing multiple versions of a file
-![Versioning Screenshot](screenshots/versioning.png)
+![Versioning Screenshot](screenshots/2version.png)
 
-3. Lifecycle rule configuration
-![Lifecycle Screenshot](screenshots/lifecycle-rule.png)
+3. Bucket with files visible
+![Bucket Files Screenshot](screenshots/3.png)
+
+4. S3 website open in browser
+![S3 Website Browser Screenshot](screenshots/4.png)
+
+5. Lifecycle rule configuration
+![Lifecycle Screenshot](screenshots/5.png)
 
 ## S3 Setup Summary
-- Bucket Name: YOUR_GLOBALLY_UNIQUE_BUCKET_NAME
+- Bucket Name: assignment2-anuj
 - Versioning: Enabled
 - Static Website Hosting: Enabled
 - Lifecycle Rules: Configured
